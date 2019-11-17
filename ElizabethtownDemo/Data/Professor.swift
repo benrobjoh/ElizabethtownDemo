@@ -9,11 +9,13 @@
 import Foundation
 
 /// Represents a professor
-struct Professor: Codable {
+struct Professor: Codable, Identifiable {
+    /// The unique ID
+    let id: Int
     /// The name
     let name: String
     /// The job title
     let title: String
     /// Name of the image
-    let image: String
+    let photo: String
 }

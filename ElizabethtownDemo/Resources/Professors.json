@@ -1,40 +1,48 @@
 [
     {
+        "id": 0,
         "name": "Leyla Batakci, Ph.D.",
         "title": "Associate Professor and Chair of Mathematical Sciences",
         "photo": "batacki"
     },
     {
+        "id": 1,
         "name": "Bogdan Doytchinov, Ph.D.",
         "title": "Associate Professor of Mathematical Sciences",
         "photo": "doytchinov"
     },
     {
+        "id": 2,
         "name": "James Hughes, Ph.D.",
         "title": "Professor of Mathematical Sciences",
         "photo": "hughes"
     },
     {
+        "id": 3,
         "name": "Tim McDevitt, Ph.D.",
         "title": "Professor of Mathematical and Computer Sciences",
         "photo": "mcdevitt"
     },
     {
+        "id": 4,
         "name": "Gabriela Sanchis, Ph.D.",
         "title": "Professor of Mathematical Sciences",
         "photo": "sanchis"
     },
     {
+        "id": 5,
         "name": "Sakar Sigdel, Ph.D.",
         "title": "Assistant Professor of Mathematical Sciences",
         "photo": "sigdel"
     },
     {
+        "id": 6,
         "name": "Steve Soltys, Ed.D.",
         "title": "Assistant Professor of Mathematical Sciences",
         "photo": "soltys"
     },
     {
+        "id": 7,
         "name": "Bobette Thorsen, Ph.D.",
         "title": "Associate Professor of Mathematical Sciences",
         "photo": "thorsen"

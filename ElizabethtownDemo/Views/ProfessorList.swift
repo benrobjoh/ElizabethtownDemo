@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ProfessorList: View {
+    let professors = try! JSONLoader
+        .loadData([Professor].self, from: "Professors")
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(professors) { professor in
+                ProfessorRow(professor: professor)
+            }
+        }
+        .navigationBarTitle("Professors")
     }
 }
 

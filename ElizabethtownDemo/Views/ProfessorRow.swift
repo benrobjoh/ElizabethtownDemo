@@ -9,11 +9,11 @@
 import SwiftUI
 
 struct ProfessorRow: View {
-    @Binding var professor: Professor
+    let professor: Professor
 
     var body: some View {
         HStack {
-            Image(professor.image).resizable()
+            Image(professor.photo).resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 80)
                 .clipShape(Circle())
@@ -31,11 +31,12 @@ struct ProfessorRow: View {
 }
 
 struct ProfessorRow_Previews: PreviewProvider {
-    static let professor = Professor(name: "James Hughes, Ph.D.",
+    static let professor = Professor(id: 0,
+                                     name: "James Hughes, Ph.D.",
                                      title: "Professor of Mathematical Sciences",
-                                     image: "hughes")
+                                     photo: "hughes")
 
     static var previews: some View {
-        ProfessorRow(professor: .constant(professor))
+        ProfessorRow(professor: professor)
     }
 }
