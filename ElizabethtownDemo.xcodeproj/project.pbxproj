@@ -13,6 +13,7 @@
 		5911142F2381A72400EC8EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5911142E2381A72400EC8EFC /* Assets.xcassets */; };
 		591114322381A72400EC8EFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591114312381A72400EC8EFC /* Preview Assets.xcassets */; };
 		591114352381A72400EC8EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591114332381A72400EC8EFC /* LaunchScreen.storyboard */; };
+		5911143E2381A9C200EC8EFC /* Professors.json in Resources */ = {isa = PBXBuildFile; fileRef = 5911143D2381A9C200EC8EFC /* Professors.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		591114312381A72400EC8EFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		591114342381A72400EC8EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591114362381A72400EC8EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5911143D2381A9C200EC8EFC /* Professors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Professors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				591114282381A72000EC8EFC /* AppDelegate.swift */,
-				5911142A2381A72000EC8EFC /* SceneDelegate.swift */,
-				5911142C2381A72000EC8EFC /* ContentView.swift */,
 				5911142E2381A72400EC8EFC /* Assets.xcassets */,
-				591114332381A72400EC8EFC /* LaunchScreen.storyboard */,
+				5911142C2381A72000EC8EFC /* ContentView.swift */,
 				591114362381A72400EC8EFC /* Info.plist */,
+				591114332381A72400EC8EFC /* LaunchScreen.storyboard */,
 				591114302381A72400EC8EFC /* Preview Content */,
+				5911143C2381A99F00EC8EFC /* Resources */,
+				5911142A2381A72000EC8EFC /* SceneDelegate.swift */,
 			);
 			path = ElizabethtownDemo;
 			sourceTree = "<group>";
@@ -73,6 +76,14 @@
 				591114312381A72400EC8EFC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5911143C2381A99F00EC8EFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5911143D2381A9C200EC8EFC /* Professors.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5911143E2381A9C200EC8EFC /* Professors.json in Resources */,
 				591114352381A72400EC8EFC /* LaunchScreen.storyboard in Resources */,
 				591114322381A72400EC8EFC /* Preview Assets.xcassets in Resources */,
 				5911142F2381A72400EC8EFC /* Assets.xcassets in Resources */,
