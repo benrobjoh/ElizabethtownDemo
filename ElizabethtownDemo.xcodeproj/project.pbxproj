@@ -14,6 +14,9 @@
 		591114322381A72400EC8EFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591114312381A72400EC8EFC /* Preview Assets.xcassets */; };
 		591114352381A72400EC8EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591114332381A72400EC8EFC /* LaunchScreen.storyboard */; };
 		5911143E2381A9C200EC8EFC /* Professors.json in Resources */ = {isa = PBXBuildFile; fileRef = 5911143D2381A9C200EC8EFC /* Professors.json */; };
+		591114412381AD0500EC8EFC /* ProfessorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114402381AD0500EC8EFC /* ProfessorList.swift */; };
+		591114432381AD2200EC8EFC /* ProfessorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114422381AD2200EC8EFC /* ProfessorRow.swift */; };
+		591114462381AD9200EC8EFC /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114452381AD9200EC8EFC /* Professor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		591114342381A72400EC8EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591114362381A72400EC8EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5911143D2381A9C200EC8EFC /* Professors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Professors.json; sourceTree = "<group>"; };
+		591114402381AD0500EC8EFC /* ProfessorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorList.swift; sourceTree = "<group>"; };
+		591114422381AD2200EC8EFC /* ProfessorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorRow.swift; sourceTree = "<group>"; };
+		591114452381AD9200EC8EFC /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,13 @@
 			children = (
 				591114282381A72000EC8EFC /* AppDelegate.swift */,
 				5911142E2381A72400EC8EFC /* Assets.xcassets */,
-				5911142C2381A72000EC8EFC /* ContentView.swift */,
+				591114442381AD8400EC8EFC /* Data */,
 				591114362381A72400EC8EFC /* Info.plist */,
 				591114332381A72400EC8EFC /* LaunchScreen.storyboard */,
 				591114302381A72400EC8EFC /* Preview Content */,
 				5911143C2381A99F00EC8EFC /* Resources */,
 				5911142A2381A72000EC8EFC /* SceneDelegate.swift */,
+				5911143F2381ACED00EC8EFC /* Views */,
 			);
 			path = ElizabethtownDemo;
 			sourceTree = "<group>";
@@ -84,6 +91,24 @@
 				5911143D2381A9C200EC8EFC /* Professors.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5911143F2381ACED00EC8EFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5911142C2381A72000EC8EFC /* ContentView.swift */,
+				591114402381AD0500EC8EFC /* ProfessorList.swift */,
+				591114422381AD2200EC8EFC /* ProfessorRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		591114442381AD8400EC8EFC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				591114452381AD9200EC8EFC /* Professor.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				591114292381A72000EC8EFC /* AppDelegate.swift in Sources */,
+				591114462381AD9200EC8EFC /* Professor.swift in Sources */,
+				591114412381AD0500EC8EFC /* ProfessorList.swift in Sources */,
 				5911142B2381A72000EC8EFC /* SceneDelegate.swift in Sources */,
 				5911142D2381A72000EC8EFC /* ContentView.swift in Sources */,
+				591114432381AD2200EC8EFC /* ProfessorRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
