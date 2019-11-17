@@ -17,6 +17,7 @@
 		591114412381AD0500EC8EFC /* ProfessorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114402381AD0500EC8EFC /* ProfessorList.swift */; };
 		591114432381AD2200EC8EFC /* ProfessorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114422381AD2200EC8EFC /* ProfessorRow.swift */; };
 		591114462381AD9200EC8EFC /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114452381AD9200EC8EFC /* Professor.swift */; };
+		591114482381AFF800EC8EFC /* ProfessorLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591114472381AFF800EC8EFC /* ProfessorLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		591114402381AD0500EC8EFC /* ProfessorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorList.swift; sourceTree = "<group>"; };
 		591114422381AD2200EC8EFC /* ProfessorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorRow.swift; sourceTree = "<group>"; };
 		591114452381AD9200EC8EFC /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		591114472381AFF800EC8EFC /* ProfessorLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				591114452381AD9200EC8EFC /* Professor.swift */,
+				591114472381AFF800EC8EFC /* ProfessorLoader.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				591114292381A72000EC8EFC /* AppDelegate.swift in Sources */,
 				591114462381AD9200EC8EFC /* Professor.swift in Sources */,
+				591114482381AFF800EC8EFC /* ProfessorLoader.swift in Sources */,
 				591114412381AD0500EC8EFC /* ProfessorList.swift in Sources */,
 				5911142B2381A72000EC8EFC /* SceneDelegate.swift in Sources */,
 				5911142D2381A72000EC8EFC /* ContentView.swift in Sources */,

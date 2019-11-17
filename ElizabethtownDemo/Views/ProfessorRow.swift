@@ -9,13 +9,33 @@
 import SwiftUI
 
 struct ProfessorRow: View {
+    @Binding var professor: Professor
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(professor.image).resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 80)
+                .clipShape(Circle())
+                .overlay(Circle()
+                .stroke(Color.accentColor, lineWidth: 4))
+            VStack(alignment: .leading) {
+                Text(professor.name)
+                    .font(.system(.headline))
+                Text(professor.title)
+                    .font(.system(.subheadline))
+                    .foregroundColor(.secondary)
+            }
+        }
     }
 }
 
 struct ProfessorRow_Previews: PreviewProvider {
+    static let professor = Professor(name: "James Hughes, Ph.D.",
+                                     title: "Professor of Mathematical Sciences",
+                                     image: "hughes")
+
     static var previews: some View {
-        ProfessorRow()
+        ProfessorRow(professor: .constant(professor))
     }
 }
